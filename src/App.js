@@ -1,7 +1,14 @@
+import About from "./components/About";
+import Home from "./components/Home";
+import NavBar from "./components/Navbar";
+
 function App() {
   return (
  <div>
-  <h1> SNAP FILMS </h1>
+    <NavBar />
+    <Home/>
+    <About/>
+
  </div>
   );
 }
